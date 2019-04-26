@@ -1,0 +1,112 @@
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700');
+
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Lato', sans-serif;
+  color: #385170;
+}
+
+#profile {
+  border-radius: 84px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #385170;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #142d4c;
+}
+
+p {
+  margin: 20px auto;
+}
+
+.btn-blue {
+  background-color: #9fd3c7;
+  color: white;
+  padding: 15px;
+  margin: 45px auto;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.btn-blue:hover {
+  opacity: 0.3;
+}
+
+.social-icon {
+  color: #142d4c;
+  opacity: 0.5;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+.card-white {
+  background-color: #edf2de;
+  padding: 35px;
+  margin: 55px auto;
+  text-align: center;
+  width: 750px;
+  border-width: 1px;
+  border-radius: 15px;
+}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -999;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+
+.giphy-embed {
+  padding-bottom: 30px;
+}
